@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Lecture No - 05 [Topic - Loops]
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+package Loops;
+
+public class Concept2 {
+    public static void main(String[] args) {
+        /////////////// while loop ///////////////
+        /* The while loop is used to execute a block of code repeatedly as long as a specified condition is true. */
+
+        int i = 1;
+        while(i <= 10){
+            System.out.println("Hello World! " + i);
+            i++;
+        }
+    }
+}
+
